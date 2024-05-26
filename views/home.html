@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+            margin-top: 50px;
+            max-width: 600px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        a {
+            color: #dc3545;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #bd2130;
+            text-decoration: underline;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .btn-logout {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .btn-logout:hover {
+            background-color: #bd2130;
+            border-color: #bd2130;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="text-center">
+            <img src="https://via.placeholder.com/150" alt="User Avatar" class="avatar">
+            <h1 class="mb-3">Welcome to Your Private Space</h1>
+            <p>Hello!</p>
+            <p>You are currently in your private area. Feel free to explore.</p>
+            <a href="/logout" class="btn btn-lg btn-logout mt-4">Log Out</a>
+        </div>
+    </div>
+</body>
+</html>
